@@ -11,6 +11,7 @@ let btnDel = document.getElementById("btnDel");
 let operator = false;
 
 btnClr.addEventListener("click", function () {
+  operator = false;
   res.innerHTML = "";
 });
 
